@@ -1,3 +1,38 @@
 nav{
-    background-color: #ffffff;
+    background-color: #ED932F;
+
+    .navbar-brand{
+        color: #fff;
+        img{
+            height: 59px;
+        padding: 0px;
+        }
+    }
+    .nav-item{
+        padding: 0 20px;
+        color: #fff;
+
+        .nav-link{
+            color: #fff; 
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+        .btn-signup{
+            color: #243259;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1em;
+            border: 1px solid #fff;
+            background-color: #fff;
+            transition: 0.2s ease-in-out;
+        }
+        .btn-signup:hover{
+            transition: 0.2s ease-in-out;
+            color: #fff;
+            border: 1px solid #243259;
+            background-color: #243259;
+        }
+    }
 }

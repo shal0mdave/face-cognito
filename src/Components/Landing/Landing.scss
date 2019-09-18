@@ -1,0 +1,47 @@
+body{
+    background: #ED932F;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-wrap{
+    background-color: #ED932F;
+    width: 100%;
+    padding: 160px 0px;
+    margin: 0px;
+    overflow-x: hidden;
+
+    img{
+        margin: 0px auto;
+        display: block;
+        height: 400px;
+    }
+    h1{
+        margin: 0px auto;
+        font-weight: 500;
+        text-align: center;
+        display: table;
+        color: #fff;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 60px;
+    }
+    .btn-auth{
+        color: #243259;
+        text-align: center;
+        margin: 0px auto;
+        display: block;
+        font-size: 24px;
+        background-color: #ffffff;
+        max-width: 20%;
+        border-radius: 50px;
+        box-shadow: 0px 12px 17px 0px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+}

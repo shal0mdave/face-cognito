@@ -1,0 +1,48 @@
+.Auth{
+    background-color: #ED932F;
+    width: 100%;
+    padding: 160px 0px;
+    margin: 0px;
+    overflow-x: hidden;
+
+    h1{
+        margin: 0px auto;
+        font-weight: 500;
+        text-align: center;
+        display: table;
+        color: #fff;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 60px;
+    }
+    .btn{
+        font-weight: 500;
+        color: #243259;
+        font-size: 18px;
+        background-color: #fff;
+        border: 1px solid #fff;
+        margin: 0px auto;
+        display: block;
+        padding: 10px 49px;
+        margin-bottom: 25px;
+        min-width: 239px;
+        border-radius: 50px;
+        box-shadow: 0px 12px 17px 0px rgba(36, 50, 89, 0.11), 0 3px 6px rgba(0, 0, 0, 0.23);
+        i{
+            color: #243259;
+
+           svg{
+               vertical-align: -2px;
+               height: 100%;
+               margin-right: 5px;
+           } 
+        }
+
+    }
+}

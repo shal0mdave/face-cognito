@@ -1,0 +1,122 @@
+.action-seciton{
+    background-color: #ED932F;
+    padding: 60px 0px;
+
+    h1.action-title{
+        color: #fff;
+        padding: 30px 0;
+    }
+    .upload-single{
+
+        .custom-file{
+            input[type="file"]{
+                color: #243259;
+            }
+            label{
+                color: #243259;
+            }
+            .custom-file-label{
+                border-color: #FFF;
+                border-radius: 20px;
+                font-size: 16px;
+                &:after{
+                    border-radius: 20px;
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    background-color: #243259;
+                    color: #FFF;
+                    border-color: #243259;
+                    content: "Select Image"!important;
+                }
+            }
+        }
+        .btn{
+            font-weight: 500;
+            color: #fff;
+            font-size: 16px;
+            background-color: #243259;
+            border: 1px solid #243259;;
+            margin: 0px auto;
+            display: block;
+            margin-bottom: 25px;
+            min-width: 100%;
+            border-radius: 50px;
+            box-shadow: 0px 12px 17px 0px rgba(36, 50, 89, 0.11), 0 3px 6px rgba(0, 0, 0, 0.23);
+            i{
+                color: #fff;
+                vertical-align: initial;
+            }
+        }
+    }
+
+    .upload-multiple{
+
+        .custom-file{
+            input[type="file"]{
+                color: #243259;
+            }
+            label{
+                color: #243259;
+            }
+            .custom-file-label{
+                border-color: #FFF;
+                border-radius: 20px;
+                font-size: 16px;
+                &:after{
+                    border-radius: 20px;
+                    padding-right: 30px;
+                    padding-left: 30px;
+                    background-color: #243259;
+                    color: #FFF;
+                    border-color: #243259;
+                    content: "Select Image"!important;
+                }
+            }
+        }
+        .btn{
+            font-weight: 500;
+            color: #fff;
+            font-size: 16px;
+            background-color: #243259;
+            border: 1px solid #243259;;
+            margin: 0px auto;
+            display: block;
+            margin-bottom: 25px;
+            min-width: 100%;
+            border-radius: 50px;
+            box-shadow: 0px 12px 17px 0px rgba(36, 50, 89, 0.11), 0 3px 6px rgba(0, 0, 0, 0.23);
+            i{
+                color: #fff;
+                vertical-align: initial;
+            }
+        }
+    }
+    .card{
+        border-radius: 20px;
+        padding: 1.75rem 0.75rem;
+        h1{
+            font-size: 16px;
+            color: #243259;
+            margin-bottom: 20px;
+        }
+        .image-holder{
+            img{
+                border: 1px solid #dee2e6;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+        }
+        .result-holder{
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            background: #dee2e6;
+            p{
+                color: #243259;
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
