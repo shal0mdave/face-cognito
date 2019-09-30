@@ -120,7 +120,7 @@ class detectBody extends React.Component{
                                         <label className="custom-file-label"></label>
                                     </div>
                                 </div>
-                                <button className="btn" type="submit" onClick={this.handleSubmit}><Icon type="cloud-upload" /> Upload</button>
+                                <button className="btn" type="submit" onClick={this.handleSubmit}><Icon type="file-search" /> Analyse</button>
                             </form>
                         </div>
                         <div className="col-md-8">
